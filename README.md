@@ -37,15 +37,21 @@ El tercer modo muestra la imagen de la cámara aplicando los filtros de canny, S
 ![title](resultados/tarea-3h.png)
 
 ## TAREA 4: Tras ver los vídeos [My little piece of privacy](https://www.niklasroy.com/project/88/my-little-piece-of-privacy), [Messa di voce](https://youtu.be/GfoqiyB1ndE?feature=shared) y [Virtual air guitar](https://youtu.be/FIAmyoEpV5c?feature=shared) proponer un demostrador reinterpretando la parte de procesamiento de la imagen, tomando como punto de partida alguna de dichas instalaciones.
-La propuesta consiste en detectar un color en la imagen de la cámara e invertirlos los píxeles que se encuentren. Para ello se utilizó el espacio de color HSV, que nos permite poder representar el color como un rango de valores dentro del canal de matiz del espacio facilitando la detección del mismo mediante la técnica de umbralizado.
+Se han hecho dos propuestas similares, la primera consiste en detectar un color en la imagen de la cámara e invertirlos los píxeles que se encuentren y la seguna modificar el color. Para ello se utilizó el espacio de color HSV, que nos permite poder representar el color como un rango de valores dentro del canal de matiz del espacio facilitando la detección del mismo mediante la técnica de umbralizado.
 
 ![title](Cono_de_la_coloración_HSV.png)
 Fuente de la imagen[^2]
 
 Se proporciona un widget para determinar el rango del umbral, utilizando el resultado obtenido y su inverso como mascaras que permiten componer la nueva imagen.
 
+Primera propuesta
 ![title](resultados/tarea-4a.png)
 ![title](resultados/tarea-4b.png)
+
+Segunda propuesta
+![title](resultados/tarea-4c.png)
+![title](resultados/tarea-4d.png)
+
 
 ## Autor
 Javier A. Alfonso Quintana
